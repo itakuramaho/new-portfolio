@@ -24,7 +24,7 @@
     "chokidar-cli": "^3.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
-    "del-cli": "^5.0.0",
+    "del-cli": "^5.1.0",
     "ejs-cli": "^2.2.3",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",

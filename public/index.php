@@ -39,20 +39,41 @@ $meta = array(
             <div class="about__txt-wrap">
               <h2 class="about__ttl">ABOUT ME</h2>
               <p class="about__en about__pad">I am Itakura Maho</p>
-              <p class="about__en about__pad">Born in Osaka Prefecture in November 2001.
-                 Graduated from the Department of Media Arts at Osaka University of Arts Junior College in March 2022.
+              <p class="about__en about__pad">Born in Osaka Prefecture in November 2001.<br />
+                 Graduated from the Department of Media Arts at Osaka University of Arts Junior College in March 2022.<br />
                  Currently working at a web-related company while self-studying web design, HTML/CSS, and JavaScript.</p>
-              <p class="about__txt about__pad">2001年11月、大阪府生まれ。2022年3月、大阪芸術大学短期大学部メディア芸術学科卒業。現在はWeb関連企業に勤務しながら、Webデザイン、HTML/CSS、JavaScriptを独学で勉強中。</p>
+              <p class="about__txt about__pad">2001年11月、大阪府生まれ。<br />
+              2022年3月、大阪芸術大学短期大学部メディア芸術学科卒業。<br />
+              現在はWeb関連企業に勤務しながら、Webデザイン、HTML/CSS、JavaScriptを独学で勉強中。</p>
              </div>
             <div class="about__img">
-              <img src="./assets/images/top/sakura.png" alt="桜" class="about__sakura">
-              <img src="./assets/images/top/kari.png" alt="仮画像" class="about__back">
+              <img src="./assets/images/top/aboutme.png" alt="moon">
             </div>
           </div>
         </section>
         <section class="practice">
           <div class="practice__wrap l-inner">
-            <h2 class="practice__ttl">PRACTICE</h2>
+            <div class="practice__cont">
+              <h2 class="practice__ttl">PRACTICE</h2>
+              <p class="about__en">I like</p>
+              <div class="practice__moon">
+                 <img src="./assets/images/top/moon.png" alt="moon">
+              </div>
+            </div>
+            <!-- スライダーの外枠 -->
+             <div class="practice__swiper">
+              <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">🌟 Slide 1</div>
+    <div class="swiper-slide">🎨 Slide 2</div>
+    <div class="swiper-slide">🚀 Slide 3</div>
+    <div class="swiper-slide">💡 Slide 4</div>
+    <div class="swiper-slide">🎉 Slide 5</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+             </div>
+
           </div>
         </section>
       </main>

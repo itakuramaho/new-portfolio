@@ -18,11 +18,8 @@
 ----------------------------------------------------*/
 
 .about{
-	  background: linear-gradient(to bottom,
-    black 50%,     /* 上から50%までは黒 */
-    white 100%     /* 50%から下は白へグラデーション */
-  );
-	padding-bottom: 21rem;
+	background: #000;
+	padding-bottom: 20rem;
 
 	p{
 		color: #fff;
@@ -37,48 +34,86 @@
 	}
 
 	&__wrap{
-		display: flex;
-		flex-direction: row-reverse;
-		gap: 10%;
+		text-align: center;
+		position: relative;
 	}
 
 	&__en{
-		font-size: 2.4rem;
+		font-size: 2rem;
 		font-family: "Markazi Text", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+        font-optical-sizing: auto;
+        font-style: normal;
 		line-height: 1.5;
 	}
 
+	&__ttl{
+		padding-top: 5rem;
+		}
+
 	&__txt{
-		font-size: 1.6rem;
+		font-size: 1.4rem;
+		font-family: "Zen Old Mincho";
 	}
 
 	&__txt-wrap{
 		width: 100%;
 	}
 
+// 	&__ver{
+// 		 writing-mode: vertical-rl; /* 右から左に縦書き */
+//   text-orientation: mixed;  /* 日本語向けの自然な文字回転 */
+// 	}
+
 	&__img{
-		width: 100%;
-		height: 100%;
-		position: relative;
-	}
-
-	&__sakura{
-		position: relative;
-		z-index: 2;
-	}
-
-	&__back{
+		width: 50%;
 		position: absolute;
-		right: 0.5rem;
-		bottom: -10em;
-		z-index: 1;
+		top: 0;
+		left: 0;
 	}
+
 }
 
+
 .practice{
+
+
 	&__wrap{
-		padding-top: 10rem;
+		text-align: center;
 	}
+
+	&__cont{
+		position: relative;
+	}
+
+	&__ttl{
+		padding-top: 10rem;
+		}
+
+		&__moon{
+			position: absolute;
+			width: 100%;
+			height: auto;
+			right: -45rem;
+			top: 0;
+		}
+}
+
+//
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin: 40px auto;
+}
+
+.swiper-slide {
+  background: #B0C1CA;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
