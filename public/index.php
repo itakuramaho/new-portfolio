@@ -38,15 +38,21 @@ $meta = array(
           <div class="about__wrap l-inner">
             <div class="about__txt-wrap">
               <h2 class="about__ttl">ABOUT ME</h2>
-              <p class="about__en">I am Itakura Maho</p>
-              <p class="about__en">Born in Osaka Prefecture in November 2001.
+              <p class="about__en about__pad">I am Itakura Maho</p>
+              <p class="about__en about__pad">Born in Osaka Prefecture in November 2001.
                  Graduated from the Department of Media Arts at Osaka University of Arts Junior College in March 2022.
                  Currently working at a web-related company while self-studying web design, HTML/CSS, and JavaScript.</p>
-              <p class="about__txt">2001年11月、大阪府生まれ。2022年3月、大阪芸術大学短期大学部メディア芸術学科卒業。現在はWeb関連企業に勤務しながら、Webデザイン、HTML/CSS、JavaScriptを独学で勉強中。</p>
+              <p class="about__txt about__pad">2001年11月、大阪府生まれ。2022年3月、大阪芸術大学短期大学部メディア芸術学科卒業。現在はWeb関連企業に勤務しながら、Webデザイン、HTML/CSS、JavaScriptを独学で勉強中。</p>
              </div>
             <div class="about__img">
-              <img src="./assets/images/top/aboutme.png" alt="桜">
+              <img src="./assets/images/top/sakura.png" alt="桜" class="about__sakura">
+              <img src="./assets/images/top/kari.png" alt="仮画像" class="about__back">
             </div>
+          </div>
+        </section>
+        <section class="practice">
+          <div class="practice__wrap l-inner">
+            <h2 class="practice__ttl">PRACTICE</h2>
           </div>
         </section>
       </main>
