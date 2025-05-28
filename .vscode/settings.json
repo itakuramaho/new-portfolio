@@ -1,0 +1,6 @@
+{
+  "gutterpreview.sourceFolder": "public",
+  "files.exclude": {
+    "**/dist/": true
+  }
+}

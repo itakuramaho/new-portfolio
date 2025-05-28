@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@use '../lib/global' as g;
+
+/*----------------------------------------------------
+
+	各ページの独自モジュールスタイルのCSS。
+
+	【記述ルール】
+	{ ページ名(top, about等) }○○○○
+
+	階層はルートクラスより、三階層までが基本
+	【例】
+	.top-sec .top-sec__ttl span {
+	}
+	※CSSに展開した場合
+
+----------------------------------------------------*/
+
+.about{
+	background-color: black;
+
+	p{
+		color: #fff;
+	}
+
+	h2{
+		color: #fff;
+	}
+
+	&__wrap{
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 5%;
+	}
+
+	&__en{
+		font-size: 2.4rem;
+		font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+	}
+
+	&__txt{
+		font-size: 1.6rem;
+	}
+
+	&__ttl{
+		font-size: 8rem;
+		font-family: "Playfair Display", serif;
+		font-weight: 400;
+		letter-spacing: 0.9rem;
+	}
+
+	&__img{
+		width: 100%;
+		height: auto;
+	}
+}
