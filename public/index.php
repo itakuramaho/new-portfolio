@@ -61,16 +61,15 @@ $meta = array(
               </div>
             </div>
             <!-- スライダーの外枠 -->
-             <div class="practice__swiper">
+             <div class="practice__swiper film-frame">
               <div class="swiper mySwiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">🌟 Slide 1</div>
-    <div class="swiper-slide">🎨 Slide 2</div>
-    <div class="swiper-slide">🚀 Slide 3</div>
-    <div class="swiper-slide">💡 Slide 4</div>
-    <div class="swiper-slide">🎉 Slide 5</div>
+    <div class="swiper-slide">Directed by John Doe</div>
+    <div class="swiper-slide">Written by Jane Smith</div>
+    <div class="swiper-slide">Music by Yuki Tanaka</div>
+    <div class="swiper-slide">Cast: Alice, Bob, Charlie</div>
+    <div class="swiper-slide">Special Thanks to You!</div>
   </div>
-  <div class="swiper-pagination"></div>
 </div>
              </div>
 
