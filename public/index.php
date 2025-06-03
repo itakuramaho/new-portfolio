@@ -38,7 +38,7 @@ $meta = array(
           <div class="about__wrap l-inner">
             <div class="about__txt-wrap">
               <h2 class="about__ttl">ABOUT ME</h2>
-              <p class="about__en about__pad">I am Itakura Maho</p>
+              <p class="about__en about__pad">I am Itakura Maho.</p>
               <p class="about__en about__pad">Born in Osaka Prefecture in November 2001.<br />
                  Graduated from the Department of Media Arts at Osaka University of Arts Junior College in March 2022.<br />
                  Currently working at a web-related company while self-studying web design, HTML/CSS, and JavaScript.</p>
@@ -56,22 +56,19 @@ $meta = array(
             <div class="practice__cont">
               <h2 class="practice__ttl">PRACTICE</h2>
               <p class="about__en">I like</p>
-              <div class="practice__moon">
-                 <img src="./assets/images/top/moon.png" alt="moon">
-              </div>
             </div>
             <!-- スライダーの外枠 -->
-             <div class="practice__swiper film-frame">
-              <div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">Directed by John Doe</div>
-    <div class="swiper-slide">Written by Jane Smith</div>
-    <div class="swiper-slide">Music by Yuki Tanaka</div>
-    <div class="swiper-slide">Cast: Alice, Bob, Charlie</div>
-    <div class="swiper-slide">Special Thanks to You!</div>
-  </div>
-</div>
-             </div>
+          <div class="practice__swiper film-frame">
+           <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="./assets/images/top/itakura.png" alt="moon"></div>
+               <div class="swiper-slide">Written by Jane Smith</div>
+               <div class="swiper-slide">Music by Yuki Tanaka</div>
+               <div class="swiper-slide">Cast: Alice, Bob, Charlie</div>
+               <div class="swiper-slide">Special Thanks to You!</div>
+            </div>
+           </div>
+          </div>
 
           </div>
         </section>

@@ -19,7 +19,7 @@
 
 .about{
 	background: #000;
-	padding-bottom: 20rem;
+	padding: 0 0 25rem 0 !important;
 
 	p{
 		color: #fff;
@@ -69,7 +69,38 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		animation: floatY 4s ease-in-out infinite;
+
+		 &::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 100%;
+      height: 100%;
+      background-image: url('/assets/images/top/aboutme.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.3;
+      filter: blur(8px);
+      z-index: -1;
+      animation: floatYMirror 4s ease-in-out infinite;
+    }
 	}
+
+	// ふわふわ
+@keyframes floatY {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+// コピーずらす
+@keyframes floatYMirror {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(15px); }
+  100% { transform: translateY(0); }
+}
 
 }
 
