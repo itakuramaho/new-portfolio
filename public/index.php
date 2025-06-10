@@ -34,7 +34,7 @@ $meta = array(
               </div>
            </div>
         </section>
-        <section class="about">
+        <section class="about ">
           <div class="about__wrap l-inner">
             <div class="about__txt-wrap">
               <h2 class="about__ttl">ABOUT ME</h2>
@@ -71,6 +71,9 @@ $meta = array(
           </div>
 
           </div>
+        </section>
+        <section class="content">
+          <div cl></div>
         </section>
       </main>
     </div>
